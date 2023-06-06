@@ -1,6 +1,5 @@
-import Name from "../sections/Name.js"
-import ComputerNav from "../Navbars/ComputerNav.js"
-import Icons from "../sections/Icons.js"
+import ComputerLeft from "../sections/Left-Right/ComputerLeft.js"
+import ComputerRight from "../sections/Left-Right/ComputerRight.js"
 
 const ComputerLayout = props => {
 
@@ -8,23 +7,11 @@ const ComputerLayout = props => {
     return (
         <div className="flex h-screen">
         
-            <div className="px-96 py-64 h-full">
+            <div className="px-96 py-64 h-full flex">
 
-                {/* LEFT SIDE */}
-                <div className="w-50% border border-white h-4/5 my-auto flex flex-col justify-between">
-                    <div className="mb-36">
-                        <Name />
+                <ComputerLeft />
 
-                        <ComputerNav />
-                    </div>
-
-                    <Icons className="justify-self-end"/>
-                </div>
-
-                {/* RIGHT SIDE */}
-                <div>
-
-                </div>
+                <ComputerRight />
             </div>
 
 
