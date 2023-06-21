@@ -1,12 +1,11 @@
 import React from "react";
 import ProjectItem from "./ProjectItem"
 
-const ProjectList = props => {
-
-    console.log(props.projects)
+const ProjectList = (props) => {
 
     const content = props.projects.map((project) => (
         <ProjectItem
+            key = { project.name }
             name = { project.name }
             about = { project.about }
             stack = { project.stack }
@@ -15,12 +14,12 @@ const ProjectList = props => {
             image = { project.image }
         />
     ))
-    
-        return (
-            <ul className="border border-white">
-                { content }
-            </ul>
-        )
+
+    return (
+        <ul className="border border-white">
+            { content }
+        </ul>
+    )
 }
 
 export default ProjectList

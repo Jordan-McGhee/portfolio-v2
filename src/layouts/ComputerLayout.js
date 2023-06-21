@@ -7,7 +7,7 @@ const ComputerLayout = props => {
     return (
         <div className="flex h-screen">
         
-            <div className="px-96 py-64 h-full flex">
+            <div className="px-48 py-64 h-full flex justify-between m-auto">
 
                 <ComputerLeft />
 

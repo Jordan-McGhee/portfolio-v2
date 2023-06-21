@@ -5,8 +5,8 @@ import Projects from "../Projects/Projects";
 const ComputerRight = () => {
 
     return (
-        <div className="w-1/2 px-36">
-            <About />
+        <div className="w-1/2 ml-16 border border-white">
+            {/* <About /> */}
 
             <Projects />
         </div>

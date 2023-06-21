@@ -1,14 +1,14 @@
 import React from "react";
 import projects from "../../projects.json"
-import ProjectList from "./ProjectItem";
+import ProjectList from "./ProjectList";
 
 const Projects = () => {
 
-    console.log(projects.projects)
+    // console.log(projects)
 
     return (
         <div id = "projects" className="border border-white">
-            <ProjectList projects = { projects.projects } />
+            <ProjectList projects = { projects } />
         </div>
     )
 }

@@ -1,28 +1,26 @@
 import React from "react";
 
 
-const ProjectList = props => {
+const ProjectItem = (props) => {
 
-
-    console.log(typeof props.stack)
-    // const stack = props.stack.map((tech) => (
-    //     null
-    // ))
+    const stack = props.stack.map((tech) => (
+        null
+    ))
 
     return (
-        <li className="flex">
+        <li className="flex w-full border border-accent items-start mb-12">
             
             {/* IMAGE PLACEHOLDER */}
-            <div className="w-1/3 rounded-sm bg-white" />
+            <div className="rounded-sm bg-white h-64 w-64" />
 
             {/* CONTENT DIV */}
             <div>
-                <p className="">{ props.name }</p>
-                <p className="">{ props.about }</p>
+                <p className="text-white text-5xl">{ props.name }</p>
+                <p className="text-white text-2xl">{ props.about }</p>
                 {/* { stack } */}
             </div>
         </li>
     )
 }
 
-export default ProjectList
+export default ProjectItem
