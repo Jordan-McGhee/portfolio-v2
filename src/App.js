@@ -1,13 +1,10 @@
 import './App.css';
+import WebLayout from './WebLayout/WebLayout';
 
 function App() {
   return (
     <div className="App">
-      <div>
-        <p>Jordan McGhee</p>
-        <p>Fullstack Software Developer</p>
-      </div>
-      
+      <WebLayout />
     </div>
   );
 }

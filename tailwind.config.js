@@ -7,6 +7,7 @@ module.exports = {
       'secondary': '#F6F0FF',
       'accent': '#7A32E6',
       'white': '#ffffff',
+      'offWhite': "#c5c9d1"
     },
     extend: {},
   },
