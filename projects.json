@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Drink 4 The Kids 2023",
+        "about": "A web app to help celebrate the 4th annual D4K charity party. All proceeds will go directly to The Nicholas House, an Atlanta based charity that operates an emergency shelter for homeless families.",
+        "stack": [
+            "React",
+            "Express",
+            "Node",
+            "PostgreSQL",
+            "Tailwind CSS",
+            "Firebase"
+        ],
+        "link": "https://d4k2k23.web.app/",
+        "github": "https://github.com/Jordan-McGhee/d4k-2023",
+        "image": null
+    },
+    {
+        "name": "Get Fit",
+        "about": "A web app for fitness enthusiasts to track their main lifts and create custom workout routines.",
+        "stack": [
+            "React",
+            "Express",
+            "Node",
+            "MongoDB",
+            "TailwindCSS",
+            "Firebase",
+            "Heroku"
+        ],
+        "link": null,
+        "github": "https://github.com/Jordan-McGhee/GetFit",
+        "image": null
+    },
+    {
+        "name": "SwoleMates",
+        "about": "A social media app for fitness enthusiasts. Similar to Facebook, users can create posts and workouts, add friends, and like/comment on their friends' content.",
+        "stack": [
+            "Python",
+            "NoSQL",
+            "Django",
+            "Bulma CSS",
+            "AWS"
+        ],
+        "link": "https://www.youtube.com/watch?v=HV_U1tcYcZg&ab_channel=JordanMcGhee",
+        "github": "https://github.com/Jordan-McGhee/SwoleMates",
+        "image": null
+    },
+    {
+        "name": "Job Tracker",
+        "about": "A responsive web app designed for users to easily keep track of any job they apply to during their search.",
+        "stack": [
+            "Python",
+            "NoSQL",
+            "Django",
+            "Bulma CSS",
+            "AWS"
+        ],
+        "link": null,
+        "github": "https://github.com/Jordan-McGhee/job-tracker",
+        "image": null
+    },
+    {
+        "name": "Quizard",
+        "about": "A Quizlet clone, designed for users to create their own quizzes to fit their needs. Users will also be able to take, rate, and favorite any other quiz in the community section.",
+        "stack": [
+            "Python",
+            "NoSQL",
+            "Django",
+            "Bulma CSS",
+            "AWS"
+        ],
+        "link": "https://www.youtube.com/watch?v=WBxkz8Xlr2U&ab_channel=JordanMcGhee",
+        "github": "https://github.com/Jordan-McGhee/quizard",
+        "image": null
+    }
+]
