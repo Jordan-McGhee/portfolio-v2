@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../../components/button";
 
 // icon imports
 import purpleBehance from "../../icons/purpleBehance.png"
@@ -10,11 +11,10 @@ import whiteGithub from "../../icons/whiteGithub.png"
 import whiteLinkedin from "../../icons/whiteLinkedin.png"
 import whiteResume from "../../icons/whiteResume.png"
 
-
 const LeftSide = () => {
     return (
 
-        <div className="text-white flex-col">
+        <div className="text-white flex-col border border-white h-5/6 content-evenly">
             {/* // div  for name and intro */}
             <div>
                 <p className="text-9xl font-bold">Jordan McGhee</p>
@@ -30,8 +30,11 @@ const LeftSide = () => {
             </div>
 
             {/* // div for icons */}
-            <div className="flex">
-                <img src={ purpleBehance } />
+            <div className="flex items-center">
+                <img src={ whiteGithub } className="h-20 w-20 mr-12" />
+                <img src={ whiteLinkedin } className="h-20 w-20 mr-12" />
+                <img src={ whiteBehance } className="h-20 w-20 mr-12" />
+                <Button text = "RESUME" />
             </div>
 
         </div>
