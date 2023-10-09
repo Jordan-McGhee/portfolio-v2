@@ -3,10 +3,12 @@ import React from "react";
 const Education = () => {
 
     return (
-        <div className="mb-24">
+        <div className="mb-24 p-12">
+
+            <p className="text-white font-semibold text-7xl mb-16">EDUCATION</p>
 
             {/* CODING DOJO */}
-            <div className="text-offWhite flex justify-between p-12">
+            <div className="text-offWhite flex justify-between">
                 {/* DATE */}
                 <p className="text-4xl mt-1.5">March — July 2021</p>
 
@@ -18,10 +20,10 @@ const Education = () => {
                 </div>
             </div>
 
-            {/* CODING DOJO */}
-            <div className="text-offWhite flex justify-between p-12">
+            {/* MIZZOU */}
+            <div className="text-offWhite flex justify-between py-12">
                 {/* DATE */}
-                <p className="text-4xl mt-1.5">2013 — 2017</p>
+                <p className="text-4xl mt-1.5">2013 — May 2017</p>
 
                 {/* CONTENT DIV */}
                 <div className="w-4/5">

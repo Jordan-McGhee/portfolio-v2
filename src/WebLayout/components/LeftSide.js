@@ -14,7 +14,7 @@ import whiteLinkedin from "../../icons/whiteLinkedin.png"
 const LeftSide = () => {
     return (
 
-        <div className="text-white flex flex-col justify-between w-2/5 sticky">
+        <div className="text-white flex flex-col justify-between w-2/5 sticky top-0">
             {/* // div  for name and intro */}
             <div>
                 <p className="text-[156px] font-bold">Jordan McGhee</p>

@@ -1,7 +1,7 @@
 [
     {
         "name": "Drink 4 The Kids 2023",
-        "about": "A web app to help celebrate the 4th annual D4K charity party. All proceeds will go directly to The Nicholas House, an Atlanta based charity that operates an emergency shelter for homeless families.",
+        "about": "A web app to help celebrate the 4th annual D4K charity party. All proceeds will go directly to The Nicholas House, an Atlanta based charity.",
         "stack": [
             "React",
             "Express",
@@ -22,7 +22,7 @@
             "Express",
             "Node",
             "MongoDB",
-            "TailwindCSS",
+            "Tailwind CSS",
             "Firebase",
             "Heroku"
         ],
@@ -32,7 +32,7 @@
     },
     {
         "name": "SwoleMates",
-        "about": "A social media app for fitness enthusiasts. Similar to Facebook, users can create posts and workouts, add friends, and like/comment on their friends' content.",
+        "about": "A social media app for fitness enthusiasts. Users can create posts and workouts, add friends, and like/comment on their friends' content.",
         "stack": [
             "Python",
             "NoSQL",
@@ -60,7 +60,7 @@
     },
     {
         "name": "Quizard",
-        "about": "A Quizlet clone, designed for users to create their own quizzes to fit their needs. Users will also be able to take, rate, and favorite any other quiz in the community section.",
+        "about": "A Quizlet clone, designed for users to create their own quizzes to fit their studying needs.",
         "stack": [
             "Python",
             "NoSQL",

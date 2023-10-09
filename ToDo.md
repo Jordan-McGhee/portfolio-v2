@@ -1,2 +1,3 @@
-WEB LAYOUT
-- Get left side to stick
+PROJECTS
+— Add show more button/functionality
+
