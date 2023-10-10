@@ -7,7 +7,7 @@ const ProjectItem = props => {
         <li className=" border border-accent rounded-lg flex items-start w-full mb-12 p-12">
             
             {/* IMAGE PLACEHOLDER */}
-            <span className="bg-white h-48 mr-16 aspect-video" />
+            <span className="bg-white h-64 mr-16 aspect-video" />
 
             {/* CONTENT DIV */}
             <div>
@@ -18,7 +18,7 @@ const ProjectItem = props => {
                     <p className="text-offWhite text-[44px]">GITHUB</p>
                 </div>
 
-                <p className="text-offWhite text-5xl w-4/5">{ props.about }</p>
+                <p className="text-offWhite text-5xl leading-snug">{ props.about }</p>
 
                 <StackList stack = { props.stack } />
 

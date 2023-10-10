@@ -3,7 +3,7 @@ import React from "react";
 const Button = props => {
 
     return (
-        <button className="bg-accent rounded-full px-12 py-8 text-3xl hover:bg-white hover:text-accent">
+        <button className="bg-secondary text-accent rounded-full px-12 py-8 text-3xl hover:bg-accent hover:text-secondary">
             { props.text }
         </button>
     )
