@@ -3,7 +3,7 @@ import React from "react";
 const Experience = () => {
 
     return (
-        <div className="mb-24 leading-snug">
+        <div className="mb-24 leading-snug scroll-mt-40" id="experience">
 
             <p className="text-white font-semibold text-7xl mb-16 px-12">EXPERIENCE</p>
 

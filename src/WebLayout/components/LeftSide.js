@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../components/button";
+import { NavLink } from "react-router-dom";
 
 // icon imports
 // import purpleBehance from "../../icons/purpleBehance.png"
@@ -12,44 +13,51 @@ import whiteLinkedin from "../../icons/whiteLinkedin.png"
 // import whiteResume from "../../icons/whiteResume.png"
 
 const LeftSide = () => {
+
+    const scrollToTarget = target => {
+        const targetDiv = document.getElementById(target)
+
+        if (targetDiv) { targetDiv.scrollIntoView({ behavior: 'smooth'})}
+    }
+
     return (
 
         <div className="text-white flex flex-col justify-between w-2/5 sticky top-0">
             {/* // div  for name and intro */}
             <div>
                 <p className="text-[156px] font-bold">Jordan McGhee</p>
-                <p className="text-6xl my-10">Fullstack Software Developer</p>
+                <p className="text-6xl mb-10 text-accent">Fullstack Software Developer</p>
                 <p className="text-5xl text-offWhite max-w-5xl">Something cool that will make me seem cool. Here's another sentence about how great I am.</p>
 
                 <nav>
                     <ul className="mt-32 w-max">
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="#about">
+                            <NavLink className="group flex items-center py-8 text-5xl" to="#about" onClick={() => scrollToTarget('about')}>
                                 <span className="mr-8">———</span>
                                 <span className="">ABOUT</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="#projects">
+                            <NavLink className="group flex items-center py-8 text-5xl" to="#projects" onClick={() => scrollToTarget('projects')}>
                                 <span className="mr-8">———</span>
                                 <span className="">PROJECTS</span>
-                            </a>
+                            </NavLink>
                         </li>
 
 
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="#experience">
+                            <NavLink className="group flex items-center py-8 text-5xl" to="#experience" onClick={() => scrollToTarget('experience')}>
                                 <span className="mr-8">———</span>
                                 <span className="">EXPERIENCE</span>
-                            </a>
+                            </NavLink>
                         </li>
 
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="#education">
+                            <NavLink className="group flex items-center py-8 text-5xl" to="#education" onClick={() => scrollToTarget('education')}>
                                 <span className="mr-8">———</span>
                                 <span className="">EDUCATION</span>
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
                 </nav>

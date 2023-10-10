@@ -9,7 +9,7 @@ const RightSide = () => {
         <div className="flex flex-col w-1/2 ">
             
             {/* ABOUT SECTION */}
-            <div className="mb-12 px-12 about">
+            <div className="mb-12 px-12 scroll-mt-40" id="about">
 
                 <p className="text-white font-semibold text-7xl mb-16 w-full bg-primary py-12">ABOUT ME</p>
 

@@ -1,5 +1,6 @@
 import React from "react";
 import StackList from "./StackList";
+import link from "../../../../icons/link.png"
 
 const ProjectItem = props => {
 
@@ -16,7 +17,9 @@ const ProjectItem = props => {
                 <div className="mb-2 w-4/5">
                     <p className="text-white font-medium text-[60px] mr-8">{ props.name }</p>
 
-                    <div className="flex mt-4 text-[40px]">
+                    <div className="flex items-center mt-4 text-[40px]">
+
+                        <img src={ link } alt="link icon" className="h-8 invert mr-4"/>
 
                         { 
                             props.link &&
