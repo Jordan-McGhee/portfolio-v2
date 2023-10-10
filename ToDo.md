@@ -1,3 +1,7 @@
+ALL
+- UPDATE RESUME
+- Create tab icon
+
 WEB LAYOUT
 
 - Add SVG icons, maybe as components?

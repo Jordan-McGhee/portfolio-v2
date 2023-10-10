@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../../components/button";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 // icon imports
 // import purpleBehance from "../../icons/purpleBehance.png"
@@ -66,10 +66,21 @@ const LeftSide = () => {
 
             {/* // div for icons */}
             <div className="flex items-center">
-                <img src={ whiteGithub } alt="github logo" className="h-20 w-20 mr-16" />
-                <img src={ whiteLinkedin } alt="linkedin logo" className="h-20 w-20 mr-16" />
-                <img src={ whiteBehance } alt="behance logo" className="h-20 w-20 mr-16" />
-                <Button text = "RESUME" />
+                <Link to='https://github.com/Jordan-McGhee' target="_blank">
+                    <img src={ whiteGithub } alt="github logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
+                </Link>
+
+                <Link to='https://www.linkedin.com/in/jordan-mcghee-048939117/' target="_blank">
+                    <img src={ whiteLinkedin } alt="linkedin logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
+                </Link>
+
+                <Link to='https://www.behance.net/jordanmcghee' target="_blank">
+                    <img src={ whiteBehance } alt="behance logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
+                </Link>
+
+                <Link to='' target="_blank">
+                    <Button text = "RESUME" />
+                </Link>
             </div>
 
         </div>
