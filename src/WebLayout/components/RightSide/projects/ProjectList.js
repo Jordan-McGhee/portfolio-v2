@@ -11,6 +11,8 @@ const ProjectList = props => {
             about = { project.about }
             stack = { project.stack }
             link = { project.link ? project.link : null }
+            youtube = { project.youtube ? project.youtube : null}
+            github = { project.github }
             image = { project.image ? project.image : null }
         />
     ))

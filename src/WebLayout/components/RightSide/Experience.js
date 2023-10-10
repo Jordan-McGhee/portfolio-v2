@@ -3,19 +3,19 @@ import React from "react";
 const Experience = () => {
 
     return (
-        <div className="mb-24 rounded-lg leading-snug">
+        <div className="mb-24 leading-snug">
 
             <p className="text-white font-semibold text-7xl mb-16 px-12">EXPERIENCE</p>
 
             {/* TERMINUS */}
-            <div className="text-offWhite flex justify-between border border-accent p-12">
+            <div className="text-offWhite flex rounded-[32px] justify-between p-12 hover:bg-secondary hover:bg-opacity-50">
 
                 {/* DATE */}
                 <p className="text-4xl mt-1.5">2018 — PRESENT</p>
 
                 {/* CONTENT DIV */}
                 <div className="w-4/5">
-                    <p className="text-5xl font-medium text-white mb-4">Manager, Creative Services · Terminus ABM</p>
+                    <p className="text-5xl font-medium text-white mb-4">Manager, Creative Services · <a className="hover:text-accent" href="https://terminus.com/" target="_blank" rel="noreferrer">Terminus ABM</a></p>
                     <p className="text-4xl font-medium mb-8 opacity-50">Formerly: Sr. Digital Designer, Jr. Digital Strategist</p>
 
                     <p className="text-5xl mb-6 leading-snug">

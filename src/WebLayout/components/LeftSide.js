@@ -24,14 +24,14 @@ const LeftSide = () => {
                 <nav>
                     <ul className="mt-32 w-max">
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="">
+                            <a className="group flex items-center py-8 text-5xl" href="#about">
                                 <span className="mr-8">———</span>
                                 <span className="">ABOUT</span>
                             </a>
                         </li>
 
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="">
+                            <a className="group flex items-center py-8 text-5xl" href="#projects">
                                 <span className="mr-8">———</span>
                                 <span className="">PROJECTS</span>
                             </a>
@@ -39,14 +39,14 @@ const LeftSide = () => {
 
 
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="">
+                            <a className="group flex items-center py-8 text-5xl" href="#experience">
                                 <span className="mr-8">———</span>
                                 <span className="">EXPERIENCE</span>
                             </a>
                         </li>
 
                         <li>
-                            <a className="group flex items-center py-8 text-5xl" href="">
+                            <a className="group flex items-center py-8 text-5xl" href="#education">
                                 <span className="mr-8">———</span>
                                 <span className="">EDUCATION</span>
                             </a>

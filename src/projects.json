@@ -1,7 +1,7 @@
 [
     {
         "name": "Drink 4 The Kids 2023",
-        "about": "A web app to help celebrate the 4th annual D4K charity party. All proceeds will go directly to The Nicholas House, an Atlanta based charity.",
+        "about": "A mobile-only web app to help celebrate the 4th annual D4K charity party. All proceeds will go directly to The Nicholas House, an Atlanta based charity.",
         "stack": [
             "React",
             "Express",
@@ -15,7 +15,7 @@
         "image": null
     },
     {
-        "name": "Get Fit",
+        "name": "GetFit",
         "about": "A web app for fitness enthusiasts to track their main lifts and create custom workout routines.",
         "stack": [
             "React",
@@ -40,7 +40,7 @@
             "Bulma CSS",
             "AWS"
         ],
-        "link": "https://www.youtube.com/watch?v=HV_U1tcYcZg&ab_channel=JordanMcGhee",
+        "youtube": "https://www.youtube.com/watch?v=HV_U1tcYcZg&ab_channel=JordanMcGhee",
         "github": "https://github.com/Jordan-McGhee/SwoleMates",
         "image": null
     },
@@ -68,7 +68,7 @@
             "Bulma CSS",
             "AWS"
         ],
-        "link": "https://www.youtube.com/watch?v=WBxkz8Xlr2U&ab_channel=JordanMcGhee",
+        "youtube": "https://www.youtube.com/watch?v=WBxkz8Xlr2U&ab_channel=JordanMcGhee",
         "github": "https://github.com/Jordan-McGhee/quizard",
         "image": null
     }
