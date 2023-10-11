@@ -17,7 +17,7 @@ const LeftSide = () => {
     const scrollToTarget = target => {
         const targetDiv = document.getElementById(target)
 
-        if (targetDiv) { targetDiv.scrollIntoView({ behavior: 'smooth'})}
+        if (targetDiv) { targetDiv.scrollIntoView({ behavior: 'smooth' }) }
     }
 
     return (
@@ -32,31 +32,31 @@ const LeftSide = () => {
                 <nav>
                     <ul className="mt-32 w-max">
                         <li>
-                            <NavLink className="group flex items-center py-8 text-5xl" to="#about" onClick={() => scrollToTarget('about')}>
-                                <span className="mr-8">———</span>
-                                <span className="">ABOUT</span>
+                            <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/about" onClick={() => scrollToTarget('about')}>
+                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="font-semibold">ABOUT</span>
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink className="group flex items-center py-8 text-5xl" to="#projects" onClick={() => scrollToTarget('projects')}>
-                                <span className="mr-8">———</span>
-                                <span className="">PROJECTS</span>
+                            <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/projects" onClick={() => scrollToTarget('projects')}>
+                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="font-semibold">PROJECTS</span>
                             </NavLink>
                         </li>
 
 
                         <li>
-                            <NavLink className="group flex items-center py-8 text-5xl" to="#experience" onClick={() => scrollToTarget('experience')}>
-                                <span className="mr-8">———</span>
-                                <span className="">EXPERIENCE</span>
+                            <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/experience" onClick={() => scrollToTarget('experience')}>
+                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="font-semibold">EXPERIENCE</span>
                             </NavLink>
                         </li>
 
                         <li>
-                            <NavLink className="group flex items-center py-8 text-5xl" to="#education" onClick={() => scrollToTarget('education')}>
-                                <span className="mr-8">———</span>
-                                <span className="">EDUCATION</span>
+                            <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/education" onClick={() => scrollToTarget('education')}>
+                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="font-semibold">EDUCATION</span>
                             </NavLink>
                         </li>
                     </ul>
@@ -67,19 +67,19 @@ const LeftSide = () => {
             {/* // div for icons */}
             <div className="flex items-center">
                 <Link to='https://github.com/Jordan-McGhee' target="_blank">
-                    <img src={ whiteGithub } alt="github logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
+                    <img src={whiteGithub} alt="github logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
                 </Link>
 
                 <Link to='https://www.linkedin.com/in/jordan-mcghee-048939117/' target="_blank">
-                    <img src={ whiteLinkedin } alt="linkedin logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
+                    <img src={whiteLinkedin} alt="linkedin logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
                 </Link>
 
                 <Link to='https://www.behance.net/jordanmcghee' target="_blank">
-                    <img src={ whiteBehance } alt="behance logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
+                    <img src={whiteBehance} alt="behance logo" className="h-20 w-20 mr-16 opacity-60 hover:opacity-100" />
                 </Link>
 
                 <Link to='' target="_blank">
-                    <Button text = "RESUME" />
+                    <Button text="RESUME" />
                 </Link>
             </div>
 
