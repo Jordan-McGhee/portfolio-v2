@@ -7,6 +7,7 @@ const ProjectList = props => {
         <ProjectItem
             key = { project.name }
             id = { project.name }
+            index = { props.projects.indexOf(project) }
             name = { project.name }
             about = { project.about }
             stack = { project.stack }

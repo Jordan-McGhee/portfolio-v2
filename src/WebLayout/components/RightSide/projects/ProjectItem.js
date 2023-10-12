@@ -1,8 +1,27 @@
 import React from "react";
 import StackList from "./StackList";
 import link from "../../../../icons/link.png"
+import d4k from "../../../../thumbnails/d4k.png"
+import getfit from "../../../../thumbnails/GetFit.png"
+import jobTracker from "../../../../thumbnails/jobtracker.png"
+import quizard from "../../../../thumbnails/quizard.png"
+import swolemates from "../../../../thumbnails/swolemates.png"
 
 const ProjectItem = props => {
+
+    let image
+
+    if (props.index === 0) {
+        image = d4k
+    } else if (props.index === 1) {
+        image = getfit
+    }else if (props.index === 2) {
+        image = swolemates
+    } else if (props.index === 3) {
+        image = jobTracker
+    } else {
+        image = quizard
+    }
 
     // hover:bg-opacity-50 group-hover:opacity-50 hover:opacity-100
 
@@ -10,7 +29,8 @@ const ProjectItem = props => {
         <li className="rounded-lg flex items-start w-full mb-12 p-12 hover:bg-secondary hover:!opacity-100 group-hover/list:opacity-50 transition-opacity duration-150 ease-in-out group">
             
             {/* IMAGE PLACEHOLDER */}
-            <span className="bg-white h-64 mt-4 mr-16 aspect-video" />
+            {/* <span className="bg-white h-64 mt-4 mr-16 aspect-video" /> */}
+            <img className="aspect-video h-64 mt-4 mr-16" src={ image } alt="project thumbnail" />
 
             {/* CONTENT DIV */}
             <div>
