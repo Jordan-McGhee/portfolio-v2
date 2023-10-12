@@ -4,8 +4,10 @@ import link from "../../../../icons/link.png"
 
 const ProjectItem = props => {
 
+    // hover:bg-opacity-50 group-hover:opacity-50 hover:opacity-100
+
     return (
-        <li className="rounded-lg flex items-start w-full mb-12 p-12 hover:bg-secondary hover:bg-opacity-50">
+        <li className="rounded-lg flex items-start w-full mb-12 p-12 hover:bg-secondary hover:!opacity-100 group-hover/list:opacity-50 transition-opacity duration-150 ease-in-out group">
             
             {/* IMAGE PLACEHOLDER */}
             <span className="bg-white h-64 mt-4 mr-16 aspect-video" />

@@ -18,7 +18,7 @@ const ProjectList = props => {
     ))
 
     return (
-        <ul>
+        <ul className="group/list">
             { content }
         </ul>
     )

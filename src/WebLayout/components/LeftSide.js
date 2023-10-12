@@ -31,16 +31,16 @@ const LeftSide = () => {
 
                 <nav>
                     <ul className="mt-32 w-max">
-                        <li>
+                        <li className="">
                             <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/about" onClick={() => scrollToTarget('about')}>
-                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="mr-8 h-1 w-24 bg-white transition-all duration-300 ease-in-out group-hover:w-60"></span>
                                 <span className="font-semibold">ABOUT</span>
                             </NavLink>
                         </li>
 
                         <li>
                             <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/projects" onClick={() => scrollToTarget('projects')}>
-                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="mr-8 h-1 w-24 bg-white transition-all duration-300 ease-in-out group-hover:w-60"></span>
                                 <span className="font-semibold">PROJECTS</span>
                             </NavLink>
                         </li>
@@ -48,14 +48,14 @@ const LeftSide = () => {
 
                         <li>
                             <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/experience" onClick={() => scrollToTarget('experience')}>
-                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="mr-8 h-1 w-24 bg-white transition-all duration-300 ease-in-out group-hover:w-60"></span>
                                 <span className="font-semibold">EXPERIENCE</span>
                             </NavLink>
                         </li>
 
                         <li>
                             <NavLink className="group flex items-center py-8 text-[40px] opacity-50 hover:opacity-100" to="/education" onClick={() => scrollToTarget('education')}>
-                                <span className="mr-8 h-1 w-24 bg-white group-hover:w-60"></span>
+                                <span className="mr-8 h-1 w-24 bg-white transition-all duration-300 ease-in-out group-hover:w-60"></span>
                                 <span className="font-semibold">EDUCATION</span>
                             </NavLink>
                         </li>
