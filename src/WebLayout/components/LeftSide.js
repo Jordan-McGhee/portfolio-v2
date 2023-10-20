@@ -3,14 +3,9 @@ import Button from "../../components/button";
 import { Link, NavLink } from "react-router-dom";
 
 // icon imports
-// import purpleBehance from "../../icons/purpleBehance.png"
-// import purpleGithub from "../../icons/purpleGithub.png"
-// import purpleLinkedin from "../../icons/purpleLinkedin.png"
-// import purpleResume from "../../icons/purpleResume.png"
 import whiteBehance from "../../icons/whiteBehance.png"
 import whiteGithub from "../../icons/whiteGithub.png"
 import whiteLinkedin from "../../icons/whiteLinkedin.png"
-// import whiteResume from "../../icons/whiteResume.png"
 
 const LeftSide = () => {
 
