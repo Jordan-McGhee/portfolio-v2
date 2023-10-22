@@ -1,6 +1,7 @@
 import React from "react";
 import MobileHeader from "./components/MobileHeader";
 import MobileAbout from "./components/MobileAbout";
+import MobileProjects from "./components/Projects/MobileProjects";
 
 const MobileLayout = () => {
 
@@ -9,6 +10,8 @@ const MobileLayout = () => {
             <MobileHeader />
 
             <MobileAbout />
+
+            <MobileProjects />
         </div>
     )
 }

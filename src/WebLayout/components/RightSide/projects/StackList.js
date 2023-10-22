@@ -3,7 +3,7 @@ import React from "react";
 const StackList = props => {
 
     let content = props.stack.map((stack) => (
-        <li className="mt-8 px-8 py-4 bg-secondary text-accent rounded-full text-4xl mr-4 group-hover:bg-primary">
+        <li className="mt-8 px-8 py-4 bg-secondary text-accent rounded-full text-4xl mr-4 group-hover:bg-primary" key={props.stack.indexOf(stack)}>
             { stack }
         </li>
     ))
