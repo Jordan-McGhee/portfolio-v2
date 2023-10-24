@@ -23,13 +23,9 @@ const ProjectItem = props => {
         image = quizard
     }
 
-    // hover:bg-opacity-50 group-hover:opacity-50 hover:opacity-100
-
     return (
         <li className="rounded-lg flex items-start w-full mb-12 p-12 hover:bg-secondary hover:!opacity-100 group-hover/list:opacity-50 transition-opacity duration-150 ease-in-out group">
             
-            {/* IMAGE PLACEHOLDER */}
-            {/* <span className="bg-white h-64 mt-4 mr-16 aspect-video" /> */}
             <img className="aspect-video h-64 mt-4 mr-16" src={ image } alt="project thumbnail" />
 
             {/* CONTENT DIV */}

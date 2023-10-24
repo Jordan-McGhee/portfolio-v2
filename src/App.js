@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       
       {/* MOBILE LAYOUT */}
-      <div className='md:hidden'>
+      <div className='lg:hidden'>
         <MobileLayout />
       </div>
       {/* TABLET LAYOUT */}

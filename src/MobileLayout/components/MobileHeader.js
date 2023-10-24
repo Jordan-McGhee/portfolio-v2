@@ -17,17 +17,17 @@ const MobileHeader = () => {
             <p className="text-offWhite opacity-75 mb-5">Something cool that will make me seem cool. Here's another sentence about how great I am.</p>
 
             {/* LINK DIV */}
-            <div className="flex w-[65%] justify-between items-center">
+            <div className="flex w-fit justify-between items-center">
             <Link to='https://github.com/Jordan-McGhee' target="_blank">
-                    <img src={whiteGithub} alt="github logo" className="h-6 w-6 opacity-60 hover:opacity-100" />
+                    <img src={whiteGithub} alt="github logo" className="h-6 w-6 opacity-60 hover:opacity-100 mr-4" />
                 </Link>
 
                 <Link to='https://www.linkedin.com/in/jordan-mcghee-048939117/' target="_blank">
-                    <img src={whiteLinkedin} alt="linkedin logo" className="h-6 w-6 opacity-60 hover:opacity-100" />
+                    <img src={whiteLinkedin} alt="linkedin logo" className="h-6 w-6 opacity-60 hover:opacity-100 mr-4" />
                 </Link>
 
                 <Link to='https://www.behance.net/jordanmcghee' target="_blank">
-                    <img src={whiteBehance} alt="behance logo" className="h-6 w-6 opacity-60 hover:opacity-100" />
+                    <img src={whiteBehance} alt="behance logo" className="h-6 w-6 opacity-60 hover:opacity-100 mr-4" />
                 </Link>
 
                 <Link to='' target="_blank">

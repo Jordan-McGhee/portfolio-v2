@@ -9,11 +9,11 @@ const MobileProjects = () => {
 
     return (
         <div className="my-8 text-white" id="projects">
-            <p className="font-semibold text-sm mb-6">PROJECTS</p>
+            <p className="font-semibold text-xl mb-8">PROJECTS</p>
 
             <MobileProjectList projects = { showFull ? projects : projects.slice(0,3)} />
 
-            <p className="text-accent" onClick={ () => setShowFull(!showFull)}>{ showFull ? 'Show Less' : 'Show More'}</p>
+            <p className="text-accent mt-4 underline underline-offset-8" onClick={ () => setShowFull(!showFull)}>{ showFull ? 'Show Less' : 'Show More'}</p>
         </div>
     )
 }

@@ -18,7 +18,7 @@ const MobileProjectList = props => {
     )
 
     return (
-        <ul>
+        <ul className="mt-6">
             { content }
         </ul>
     )
