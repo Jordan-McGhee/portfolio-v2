@@ -7,6 +7,9 @@ import whiteBehance from "../../icons/whiteBehance.png"
 import whiteGithub from "../../icons/whiteGithub.png"
 import whiteLinkedin from "../../icons/whiteLinkedin.png"
 
+// pdf import
+import resume from "../../JordanMcGhee_Resume_2023.pdf"
+
 const MobileHeader = () => {
 
 
@@ -30,7 +33,7 @@ const MobileHeader = () => {
                     <img src={whiteBehance} alt="behance logo" className="h-6 w-6 opacity-60 hover:opacity-100 mr-4" />
                 </Link>
 
-                <Link to='' target="_blank">
+                <Link to={ resume } target="_blank">
                     <Button text="RESUME" buttonClass = "bg-secondary text-accent rounded-full px-4 py-2 text-xs" />
                 </Link>
             </div>

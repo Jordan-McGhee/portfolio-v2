@@ -9,14 +9,14 @@ function App() {
     <div className="App">
       
       {/* MOBILE LAYOUT */}
-      <div className='lg:hidden'>
+      <div className='lg:hidden mobile-layout'>
         <MobileLayout />
       </div>
       {/* TABLET LAYOUT */}
 
 
       {/* WEB LAYOUT */}
-      <div className="hidden lg:block">
+      <div className="hidden lg:block web-layout">
         <WebLayout />
       </div>
     </div>
