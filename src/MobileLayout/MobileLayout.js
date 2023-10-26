@@ -10,7 +10,7 @@ import MobileEducation from "./components/MobileEducation";
 const MobileLayout = () => {
 
     return (
-        <div className="px-8 py-12 tracking-wide leading-relaxed">
+        <div className="px-8 py-12 tracking-wide leading-relaxed mobile-layout min-w-[400px]">
             <MobileHeader />
 
             <MobileAbout />

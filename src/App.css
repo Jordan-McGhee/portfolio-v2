@@ -24,6 +24,6 @@ body {
     }
 
     .web-layout {
-        display: block;
+        display: flex;
     }
 } */
