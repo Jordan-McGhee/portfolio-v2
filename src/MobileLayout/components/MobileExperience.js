@@ -13,7 +13,7 @@ const MobileExperience = () => {
 
             <p className="my-2 opacity-50">Formerly: Sr. Digital Designer, Jr. Digital Strategist</p>
 
-            <p className="my-3">Lead Terminus’ Creative Services team, turning around personalized animated and/or static ad sets for customer marketing campaigns.</p>
+            <p className="my-3">Led Terminus’ Creative Services team, turning around personalized animated and/or static ad sets for customer marketing campaigns.</p>
 
             <p className="my-3">Managed <span className="font-semibold text-accent">60+</span> customer accounts, responsible for more than 65% of all incoming customer requests.</p>
 

@@ -19,7 +19,7 @@ const Experience = () => {
                     <p className="text-4xl font-medium mb-8 opacity-50">Formerly: Sr. Digital Designer, Jr. Digital Strategist</p>
 
                     <p className="text-5xl mb-6 leading-snug">
-                        Lead Terminus’ Creative Services team, turning around personalized
+                        Led Terminus’ Creative Services team, turning around personalized
                         animated and/or static ad sets for customer marketing campaigns.
                     </p>
                     <p className="text-5xl mb-6 leading-snug">
