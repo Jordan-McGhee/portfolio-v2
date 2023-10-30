@@ -10,13 +10,13 @@ const Projects = () => {
 
 
     return (
-        <div className="mb-24 scroll-mt-48" id="projects">
+        <div className="mb-12 scroll-mt-32" id="projects">
 
-            <p className="text-white font-semibold text-7xl mb-16 px-12">PROJECTS</p>
+            <p className="text-white font-semibold text-2xl mb-8 px-12">PROJECTS</p>
 
             <ProjectList projects = { showFull ? projects : projects.slice(0,3) } />
 
-            <p className="text-accent pl-12 text-5xl hover:cursor-pointer hover:text-white" onClick={ () => setShowFull(!showFull)}>{ showFull ? 'Show Less' : 'Show More'}</p>
+            <p className="text-accent pl-12 text-xl hover:cursor-pointer hover:text-white" onClick={ () => setShowFull(!showFull)}>{ showFull ? 'Show Less' : 'Show More'}</p>
         </div>
     )
 }
