@@ -3,13 +3,12 @@ import React from "react";
 const Experience = () => {
 
     return (
-        <div className="mb-12 leading-snug scroll-mt-32
-        " id="experience">
+        <div className="mb-12 leading-snug" id="experience">
 
-            <p className="text-white font-semibold text-2xl mb-8 px-12">EXPERIENCE</p>
+            <p className="text-white font-semibold text-2xl mb-6 px-12">EXPERIENCE</p>
 
             {/* TERMINUS */}
-            <div className="text-offWhite flex rounded-[32px] justify-between px-12 hover:bg-secondary hover:bg-opacity-50 group">
+            <div className="text-offWhite flex rounded-lg justify-between px-12 py-6 hover:bg-secondary hover:bg-opacity-50 group">
 
                 {/* DATE */}
                 <p className="mt-2 text-xs">2018 — PRESENT</p>

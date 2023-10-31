@@ -24,7 +24,7 @@ const ProjectItem = props => {
     }
 
     return (
-        <li className="rounded-lg flex items-start w-full mb-12 px-12 hover:bg-secondary hover:!opacity-100 group-hover/list:opacity-50 transition-opacity duration-150 ease-in-out group">
+        <li className="rounded-lg flex items-start w-full mb-12 px-12 py-6 hover:bg-secondary hover:!opacity-100 group-hover/list:opacity-50 transition-opacity duration-150 ease-in-out group">
             
             <img className="aspect-video h-24 mt-2 mr-8" src={ image } alt="project thumbnail" />
 

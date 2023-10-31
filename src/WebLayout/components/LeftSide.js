@@ -25,7 +25,7 @@ const LeftSide = () => {
             <div>
                 <p className="text-5xl font-bold">Jordan McGhee</p>
                 <p className="text-3xl my-4 text-accent">Fullstack Software Developer</p>
-                <p className="text-xl text-offWhite w-4/5">Something cool that will make me seem cool. Here's another sentence about how great I am.</p>
+                <p className="text-xl text-offWhite w-4/5">Digital designer turned web developer. I build apps and do other cool stuff. Let's connect.</p>
 
                 <nav>
                     <ul className="mt-16 w-max">

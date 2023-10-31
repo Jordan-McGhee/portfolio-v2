@@ -8,7 +8,7 @@ const MobileProjects = () => {
     const [ showFull, setShowFull ] = useState(false)
 
     return (
-        <div className="my-8 text-white" id="projects">
+        <div className="my-8 text-white">
             <p className="font-semibold text-xl mb-8">PROJECTS</p>
 
             <MobileProjectList projects = { showFull ? projects : projects.slice(0,3)} />

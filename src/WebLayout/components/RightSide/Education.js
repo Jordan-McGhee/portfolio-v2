@@ -4,14 +4,14 @@ import { Link } from "react-router-dom";
 const Education = () => {
 
     return (
-        <div>
-            <p className="text-white font-semibold text-2xl mb-12 px-12">EDUCATION</p>
+        <div id="education">
+            <p className="text-white font-semibold text-2xl mb-6 px-12">EDUCATION</p>
             
-            <ul className="scroll-mt-32 group/list" id="education">
+            <ul className="scroll-mt-32 group/list">
 
 
                 {/* CODING DOJO */}
-                <li className="text-offWhite flex justify-between hover:!opacity-100 group-hover/list:opacity-50 group rounded-lg hover:bg-secondary mb-12 px-12">
+                <li className="text-offWhite flex justify-between hover:!opacity-100 group-hover/list:opacity-50 group rounded-lg hover:bg-secondary mb-12 px-12 py-6">
                     {/* DATE */}
                     <p className="text-xs mt-2">March — July 2021</p>
 
