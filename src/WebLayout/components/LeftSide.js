@@ -20,7 +20,7 @@ const LeftSide = () => {
 
     return (
 
-        <div className="text-white flex flex-col justify-between w-2/5 sticky top-0">
+        <div className="text-white flex flex-col justify-between w-2/5 sticky top-0 h-fit">
             {/* // div  for name and intro */}
             <div>
                 <p className="text-5xl font-bold">Jordan McGhee</p>
@@ -28,7 +28,7 @@ const LeftSide = () => {
                 <p className="text-xl text-offWhite w-4/5">Digital designer turned web developer. I build apps and do other cool stuff. Let's connect.</p>
 
                 <nav>
-                    <ul className="mt-16 w-max">
+                    <ul className="my-16 w-max">
                         <li className="">
                             <NavLink className="group flex items-center py-4 opacity-50 hover:opacity-100" to="/about" onClick={() => scrollToTarget('about')}>
                                 <span className="mr-8 h-0.5 w-12 bg-white transition-all duration-300 ease-in-out group-hover:w-24"></span>

@@ -11,7 +11,7 @@ const MobileAbout = () => {
 
             <p className="text-offWhite mb-6">Fast forward to today and I've got a <span className="font-medium text-white">bootcamp graduation and several projects</span> under my belt. My goal now is to turn my practice into a fulfilling career.</p>
 
-            <p className="text-offWhite mb-6">When I'm not working or coding, I spend most of my time working out, exploring trails with my dog, hanging out with friends, or fighting in the rift with my friends.</p>
+            <p className="text-offWhite mb-6">When I'm not working or coding, I spend most of my time working out, exploring trails with my dog, hanging out with friends, or fighting in the rift.</p>
 
         </div>
     )

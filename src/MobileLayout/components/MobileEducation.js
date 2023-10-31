@@ -25,6 +25,8 @@ const MobileEducation = () => {
                     <p className="font-semibold">University of Missouri</p>
 
                     <p className="my-3">Bachelor of Journalism | Radio - TV Production</p>
+
+                    <p>Graduated cum laude, showcasing a strong commitment to academic excellence. Cultivated valuable skills in effective communication and collaborative teamwork with my peers.</p>
                 </li>
             </ul>
 

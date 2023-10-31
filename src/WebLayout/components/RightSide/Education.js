@@ -4,16 +4,16 @@ import { Link } from "react-router-dom";
 const Education = () => {
 
     return (
-        <div id="education">
+        <div className="scroll-mt-20" id="education">
             <p className="text-white font-semibold text-2xl mb-6 px-12">EDUCATION</p>
             
-            <ul className="scroll-mt-32 group/list">
+            <ul className="group/list">
 
 
                 {/* CODING DOJO */}
-                <li className="text-offWhite flex justify-between hover:!opacity-100 group-hover/list:opacity-50 group rounded-lg hover:bg-secondary mb-12 px-12 py-6">
+                <li className="text-offWhite flex justify-between hover:!opacity-100 group-hover/list:opacity-50 group rounded-lg hover:bg-secondary px-12 py-6">
                     {/* DATE */}
-                    <p className="text-xs mt-2">March — July 2021</p>
+                    <p className="text-xs mt-1.5">March — July 2021</p>
 
                     {/* CONTENT DIV */}
                     <div className="w-4/5">
@@ -24,14 +24,15 @@ const Education = () => {
                 </li>
 
                 {/* MIZZOU */}
-                <li className="text-offWhite flex justify-between hover:!opacity-100 group-hover/list:opacity-50 rounded-lg hover:bg-secondary mb-12 px-12 group">
+                <li className="text-offWhite flex justify-between hover:!opacity-100 group-hover/list:opacity-50 rounded-lg hover:bg-secondary mb-12 px-12 py-6 group">
                     {/* DATE */}
                     <p className="text-xs mt-1.5">2013 — May 2017</p>
 
                     {/* CONTENT DIV */}
                     <div className="w-4/5">
                         <p className="text-lg font-medium text-white mb-2 group-hover:text-accent transition-colors duration-300 ease-in-out">University of Missouri</p>
-                        <p className="text-lg font-medium mb-8">Bachelor of Journalism | Radio - TV Production</p>
+                        <p className="text-lg font-medium">Bachelor of Journalism | Radio - TV Production</p>
+                        <p className="text-lg font-medium">Graduated cum laude, showcasing a strong commitment to academic excellence. Cultivated valuable skills in effective communication and collaborative teamwork with my peers.</p>
                     </div>
                 </li>
 

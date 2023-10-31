@@ -10,7 +10,7 @@ const Projects = () => {
 
 
     return (
-        <div className="mb-12 scroll-mt-32" id="projects">
+        <div className="mb-12 scroll-mt-20" id="projects">
 
             <p className="text-white font-semibold text-2xl mb-6 px-12">PROJECTS</p>
 
