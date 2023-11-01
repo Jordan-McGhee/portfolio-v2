@@ -16,7 +16,7 @@ const MobileEducation = () => {
 
                     <p className="my-3">Full Stack Web Development Bootcamp <span className="text-accent italic">(Python — Django)</span></p>
 
-                    <p className="my-3">Intensive 14 week, part-time web development program. Included the introduction, implementation, and iteration of various web projects utilizing Python, HTML, CSS, and JavaScript</p>
+                    <p className="my-3">Intensive 14 week, part-time web development program. Included the introduction, implementation, and iteration of various web projects utilizing Python, HTML, CSS, and JavaScript.</p>
                 </li>
 
                 <li className="mt-6">

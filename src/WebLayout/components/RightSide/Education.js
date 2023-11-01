@@ -19,7 +19,7 @@ const Education = () => {
                     <div className="w-4/5">
                         <Link className="text-lg font-medium text-white group-hover:text-accent transition-colors duration-300 ease-in-out" to='https://www.codingdojo.com/' target="_blank">Coding Dojo</Link>
                         <p className="text-lg font-medium my-2">Full Stack Web Development Bootcamp <span className="text-white italic">(Python — Django)</span></p>
-                        <p className="text-base leading-snug">Intensive 14 week, part-time web development program. Included the introduction, implementation, and iteration of various web projects utilizing Python, HTML, CSS, and JavaScript</p>
+                        <p className="text-base leading-snug">Intensive 14 week, part-time web development program. Included the introduction, implementation, and iteration of various web projects utilizing Python, HTML, CSS, and JavaScript.</p>
                     </div>
                 </li>
 
