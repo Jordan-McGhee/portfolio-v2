@@ -59,7 +59,7 @@ const ProjectItem = props => {
                     </div>
                 </div>
 
-                <p className="text-offWhite text-lg leading-snug my-2">{ props.about }</p>
+                <p className="text-offWhite text-base leading-snug my-2">{ props.about }</p>
 
                 <StackList stack = { props.stack } />
 

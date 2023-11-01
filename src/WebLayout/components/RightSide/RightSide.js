@@ -22,7 +22,7 @@ const RightSide = () => {
             {/* EDUCATION */}
             <Education />
 
-            <p className="text-offWhite opacity-50 text-lg px-12 pb-28 hover:opacity-100">Site inspired by <Link to='https://www.brittanychiang.com' target="_blank" className="hover:text-accent transition-colors duration-300 ease-in-out">Brittany Chiang's</Link> portfolio. Built entirely using React and Tailwind CSS. Thumbnails made in Photoshop.</p>
+            <p className="text-offWhite opacity-50 text-lg px-12">Site inspired by <Link to='https://www.brittanychiang.com' target="_blank" className="hover:text-accent transition-colors duration-300 ease-in-out">Brittany Chiang's</Link> portfolio. Built entirely using React and Tailwind CSS. Thumbnails made in Photoshop.</p>
         </div>
     )
 }
