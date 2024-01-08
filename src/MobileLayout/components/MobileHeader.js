@@ -8,7 +8,7 @@ import whiteGithub from "../../icons/whiteGithub.png"
 import whiteLinkedin from "../../icons/whiteLinkedin.png"
 
 // pdf import
-import resume from "../../JordanMcGhee_Resume_2023.pdf"
+import resume from "../../JordanMcGhee_Resume_2024.pdf"
 
 const MobileHeader = () => {
 
