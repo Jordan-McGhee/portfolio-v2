@@ -1,7 +1,7 @@
 [
     {
         "name": "Drink 4 The Kids 2023",
-        "about": "A mobile-only web app to help celebrate the 4th annual D4K charity party. All proceeds will go directly to The Nicholas House, an Atlanta based charity.",
+        "about": "A mobile-only web app and POS system built to help celebrate the 4th annual D4K charity party. We raised over $12,000 that went to charities in Atlanta dedicated to serving homeless families.",
         "stack": [
             "React",
             "Express",
