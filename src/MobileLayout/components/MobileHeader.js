@@ -17,7 +17,7 @@ const MobileHeader = () => {
         <div className="text-white mb-12">
             <p className="text-4xl font-bold">Jordan McGhee</p>
             <p className="text-lg my-3 text-accent">Fullstack Software Developer</p>
-            <p className="text-offWhite opacity-75 mb-5">Digital designer turned web developer. I build apps and do other cool stuff. Let's connect.</p>
+            <p className="text-offWhite opacity-75 mb-5">Web developer with experience developing MERN, PERN, and Django applications. Formerly a digital designer with 6+ years of experience working in the Adobe Suite. Looking forward to connecting!</p>
 
             {/* LINK DIV */}
             <div className="flex w-fit justify-between items-center">
