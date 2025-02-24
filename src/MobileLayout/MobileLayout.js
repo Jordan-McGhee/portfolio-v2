@@ -21,7 +21,7 @@ const MobileLayout = () => {
 
             <MobileEducation />
 
-            <p className="text-offWhite opacity-75 text-xs">Site inspired by <Link to='https://www.brittanychiang.com' target="_blank" className="text-accent ">Brittany Chiang's</Link> portfolio. Built entirely using React and Tailwind CSS. Thumbnails made in Photoshop.</p>
+            {/* <p className="text-offWhite opacity-75 text-xs">Site inspired by <Link to='https://www.brittanychiang.com' target="_blank" className="text-accent ">Brittany Chiang's</Link> portfolio. Built entirely using React and Tailwind CSS. Thumbnails made in Photoshop.</p> */}
         </div>
     )
 }

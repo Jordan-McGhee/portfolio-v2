@@ -1,36 +1,17 @@
 import React from "react";
 import StackList from "../../../WebLayout/components/RightSide/projects/StackList";
 import link from "../../../icons/link.png"
-import d4k from "../../../thumbnails/d4k.png"
-import getfit from "../../../thumbnails/GetFit.png"
-import jobTracker from "../../../thumbnails/jobtracker.png"
-import quizard from "../../../thumbnails/quizard.png"
-import swolemates from "../../../thumbnails/swolemates.png"
 
 const MobileProjectItem = props => {
 
-    let image
-
-    if (props.index === 0) {
-        image = d4k
-    } else if (props.index === 1) {
-        image = getfit
-    } else if (props.index === 2) {
-        image = swolemates
-    } else if (props.index === 3) {
-        image = jobTracker
-    } else {
-        image = quizard
-    }
-
     return (
         <li className="text-offWhite text-sm mt-6">
-            <p className="text-white text-base mb-2 font-semibold">{props.name}</p>
+            <p className="text-white text-base mb-2 font-semibold hover:text-accent">{props.name}</p>
 
             {/* link div */}
             <div className="flex items-center w-3/4 mb-2">
 
-                <img src={ link } alt="link icon" className="h-3 invert mr-2"/>
+                <img src={link} alt="link icon" className="h-3 invert mr-2" />
 
                 {
                     props.link &&
@@ -50,11 +31,11 @@ const MobileProjectItem = props => {
                 <a className="text-accent" href={props.github} target="_blank" rel="noreferrer">GitHub</a>
             </div>
 
-            <p>{ props.about }</p>
+            <p>{props.about}</p>
 
-            <StackList stack = { props.stack } windowSize = 'mobile' />
+            <StackList stack={props.stack} windowSize='mobile' />
 
-            <img src={ image } alt="project thumbnail" className="aspect-video h-32 mt-5"/>
+            <img src={props.image} alt= {`${props.name} thumbnail`} className="aspect-video h-32 mt-5" />
 
         </li>
     )
