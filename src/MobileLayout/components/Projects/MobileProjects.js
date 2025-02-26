@@ -1,12 +1,11 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import projects from "../../../projects.json"
+import projects from "../../../projects.json";
 import MobileProjectList from "./MobileProjectList";
 
 const MobileProjects = () => {
-
-    const [showFull, setShowFull] = useState(false)
+    const [showFull, setShowFull] = useState(false);
 
     const staticProjects = projects.slice(0, 3);
     const additionalProjects = projects.slice(3);
@@ -18,7 +17,7 @@ const MobileProjects = () => {
             <MobileProjectList projects={staticProjects} />
 
             <AnimatePresence>
-                {showFull &&
+                {showFull && (
                     <motion.div
                         initial={{ opacity: 0, y: -10 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -27,12 +26,17 @@ const MobileProjects = () => {
                     >
                         <MobileProjectList projects={additionalProjects} />
                     </motion.div>
-                }
+                )}
             </AnimatePresence>
 
-            <p className="text-accent mt-4 underline underline-offset-8" onClick={() => setShowFull(!showFull)}>{showFull ? 'Show Less' : 'Show More'}</p>
+            <p
+                className="text-accent mt-4 underline underline-offset-8 cursor-pointer"
+                onClick={() => setShowFull(!showFull)}
+            >
+                {showFull ? "Show Less" : "Show More"}
+            </p>
         </div>
-    )
-}
+    );
+};
 
-export default MobileProjects
+export default MobileProjects;

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 import MobileHeader from "./components/MobileHeader";
 import MobileAbout from "./components/MobileAbout";

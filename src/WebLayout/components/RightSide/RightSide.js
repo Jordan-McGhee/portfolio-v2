@@ -3,7 +3,6 @@ import About from "./About";
 import Education from "./Education";
 import Projects from "./projects/Projects";
 import Experience from "./Experience";
-import { Link } from "react-router-dom";
 
 const RightSide = () => {
 
