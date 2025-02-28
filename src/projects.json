@@ -19,7 +19,7 @@
     },
     {
         "name": "Drink 4 The Kids",
-        "about": "A mobile-only web app and POS system built for the 5th annual D4K charity party. We raised over $27,000 supporting The Nicholas House and True Change charities in Atlanta. With 200+ unique users, 500+ orders placed, and 600+ drinks made, we continue improving the system each year to enhance the event’s success.",
+        "about": "A mobile-first web app and POS system built for the 5th annual D4K charity party. We raised over $27,000 supporting The Nicholas House and True Change charities in Atlanta. With 200+ unique users, 500+ orders placed, and 600+ drinks made, we continue improving the system each year to enhance the event’s success.",
         "stack": [
             "React",
             "Express",
