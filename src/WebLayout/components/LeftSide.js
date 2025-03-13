@@ -84,7 +84,7 @@ const LeftSide = () => {
                     <img src={whiteGithub} alt="GitHub" className="h-7 mr-6 opacity-60 hover:opacity-100" />
                 </Link>
 
-                <Link to="https://www.linkedin.com/in/jordan-mcghee-048939117/" target="_blank">
+                <Link to="https://www.linkedin.com/in/jordan-mcghee-dev" target="_blank">
                     <img src={whiteLinkedin} alt="LinkedIn" className="h-7 mr-6 opacity-60 hover:opacity-100" />
                 </Link>
 
