@@ -5,7 +5,10 @@ import link from "../../../icons/link.png"
 const MobileProjectItem = props => {
 
     return (
-        <li className="text-offWhite text-sm mt-6">
+        <li className="text-offWhite text-sm mt-6 mb-10">
+
+            <img src={props.image} alt= {`${props.name} thumbnail`} className="aspect-video h-28 mb-5" />
+
             <p className="text-white text-base mb-2 font-semibold hover:text-accent">{props.name}</p>
 
             {/* link div */}
@@ -34,8 +37,6 @@ const MobileProjectItem = props => {
             <p>{props.about}</p>
 
             <StackList stack={props.stack} windowSize='mobile' />
-
-            <img src={props.image} alt= {`${props.name} thumbnail`} className="aspect-video h-32 mt-5" />
 
         </li>
     )

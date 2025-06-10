@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import projects from "../../../projects.json";
+import Button from "../../../components/button";
+
+import projects from "../../../json/projects.json";
 import MobileProjectList from "./MobileProjectList";
 
 const MobileProjects = () => {
@@ -12,7 +14,7 @@ const MobileProjects = () => {
 
     return (
         <div className="my-8 text-white">
-            <p className="font-semibold text-xl mb-8">PROJECTS</p>
+            <p className="font-black text-xl mb-8">PROJECTS</p>
 
             <MobileProjectList projects={staticProjects} />
 
@@ -29,12 +31,13 @@ const MobileProjects = () => {
                 )}
             </AnimatePresence>
 
-            <p
-                className="text-accent mt-4 underline underline-offset-8 cursor-pointer"
-                onClick={() => setShowFull(!showFull)}
-            >
-                {showFull ? "Show Less" : "Show More"}
-            </p>
+            <div className="" onClick={() => setShowFull(!showFull)}>
+                <Button
+                    text={showFull ? "Show Less" : "Show More"}
+                    className="text-accent text-xl hover:cursor-pointer hover:text-white"
+
+                />
+            </div>
         </div>
     );
 };

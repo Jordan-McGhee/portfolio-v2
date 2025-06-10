@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import projects from "../../../../projects.json";
+import Button from "../../../../components/button";
+
+import projects from "../../../../json/projects.json";
 import ProjectList from "./ProjectList";
 
 const Projects = () => {
@@ -12,7 +14,7 @@ const Projects = () => {
 
     return (
         <div className="mb-12 scroll-mt-20" id="projects">
-            <p className="text-white font-semibold text-2xl mb-6 px-12">PROJECTS</p>
+            <p className="text-white font-semibold text-2xl mb-6 px-8">PROJECTS</p>
 
             {/* Render first 3 projects statically */}
             <ProjectList projects={staticProjects} />
@@ -31,12 +33,13 @@ const Projects = () => {
                 )}
             </AnimatePresence>
 
-            <p
-                className="text-accent pl-12 text-xl hover:cursor-pointer hover:text-white"
-                onClick={() => setShowFull(!showFull)}
-            >
-                {showFull ? "Show Less" : "Show More"}
-            </p>
+            <div className="ml-7" onClick={() => setShowFull(!showFull)}>
+                <Button
+                    text={showFull ? "Show Less" : "Show More"}
+                    className="text-accent text-xl hover:cursor-pointer hover:text-white"
+                    
+                />
+            </div>
         </div>
     );
 };

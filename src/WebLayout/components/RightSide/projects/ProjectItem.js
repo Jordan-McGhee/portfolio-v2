@@ -5,16 +5,32 @@ import link from "../../../../icons/link.png"
 const ProjectItem = props => {
 
     return (
-        <li className="rounded-lg flex items-start w-full mb-12 px-12 py-6 hover:bg-secondary hover:!opacity-100 group-hover/list:opacity-50 transition-opacity duration-150 ease-in-out group">
+        <li className="rounded-lg flex items-start w-full mb-12 px-8 py-6 hover:bg-secondary hover:!opacity-100 group-hover/list:opacity-50 transition-opacity duration-150 ease-in-out group">
 
-            <img className="aspect-video h-24 mt-2 mr-8" src={props.image} alt={`${props.name} thumbnail`} />
+            <a
+                className="aspect-video h-20 mt-2 mr-8"
+                href={props.link || props.youtube || props.github}
+                target="_blank"
+                rel="noreferrer"
+            >
+
+                <img src={props.image} alt={`${props.name} thumbnail`} />
+            </a>
 
             {/* CONTENT DIV */}
             <div>
 
                 {/* name and github link */}
-                <div className="mb-2 w-4/5">
-                    <p className="text-white font-medium text-lg mr-8 hover:text-accent">{props.name}</p>
+                <div className="mb-2 w-3/4">
+                    <a
+                        className="text-white font-medium text-lg mr-8 hover:text-accent"
+                        href={props.link || props.youtube || props.github}
+                        target="_blank"
+                        rel="noreferrer"
+                        title={props.name}
+                    >
+                        {props.name}
+                    </a>
 
                     <div className="flex items-center mt-2">
 

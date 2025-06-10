@@ -1,5 +1,23 @@
 [
     {
+        "name": "SwoleMates v2",
+        "inDevelopment": true,
+        "about": "A much-needed revamping of a my first project — a Facebook-inspired fitness social media platform for weightlifters that enables users to keep up with their fitness progress, create posts and workouts, and interact with their friends’ content.",
+        "stack": [
+            "React with Typescript",
+            "Vite",
+            "Express",
+            "Node",
+            "Tailwind CSS",
+            "shadcn",
+            "PostgreSQL",
+            "Firebase",
+            "Supabase"
+        ],
+        "github": "https://github.com/Jordan-McGhee/swolemates_v2",
+        "image": "/thumbnails/swolemates.png"
+    },
+    {
         "name": "LeagueTrendz",
         "about": "An NBA application providing users with a comprehensive platform to explore stats, team performances, and follow their favorite players and teams with data from the 2023-24 season and past seasons in the NBA.",
         "stack": [
@@ -26,7 +44,8 @@
             "Node",
             "PostgreSQL",
             "Tailwind CSS",
-            "Firebase"
+            "Firebase",
+            "Supabase"
         ],
         "link": "https://drink4thekids.com/",
         "github": "https://github.com/Jordan-McGhee/d4k-2023",

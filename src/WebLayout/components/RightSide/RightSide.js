@@ -7,7 +7,7 @@ import Experience from "./Experience";
 const RightSide = () => {
 
     return (
-        <div className="flex flex-col w-7/12">
+        <div className="flex flex-col w-[65%] ml-8">
             
             {/* ABOUT SECTION */}
             <About />

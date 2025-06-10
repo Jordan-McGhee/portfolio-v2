@@ -1,0 +1,30 @@
+[
+    {
+        "company": "DemandScience",
+        "position": "Manager, Creative Services",
+        "location": "Atlanta, GA",
+        "notes": "DemandScience acquired Terminus in 2024",
+        "startDate": "JUN 2023",
+        "endDate": "JUN 2025",
+        "bullets": [
+            "Led a team of creative professionals in delivering high-impact creatives for marketing campaigns.",
+            "Collaborated directly with clients, joining sales calls to pitch and tailor creative services for diverse marketing needs.",
+            "Managed the creation and optimization of high-value customer ad sets, ensuring campaign effectiveness and client satisfaction."
+        ],
+        "url": "https://www.demandscience.com/"
+    },
+    {
+        "company": "Terminus ABM",
+        "position": "Senior Digital Designer",
+        "location": "Atlanta, GA",
+        "notes": null,
+        "startDate": "FEB 2018",
+        "endDate": "JUN 2023",
+        "bullets": [
+            "Spearheaded the expansion of creative offerings to include HTML5, video, and audio ad production, broadening service capabilities and increasing revenue opportunities.",
+            "Utilized the Adobe Creative Suite to turn around professional animated, HTML5, and static display ad sets for customer B2B marketing campaigns.",
+            "Managed 60+ customer accounts, communicating directly with customers for feedback. Responsible for more than 65% of all incoming requests."
+        ],
+        "url": "https://www.demandscience.com/"
+    }
+]

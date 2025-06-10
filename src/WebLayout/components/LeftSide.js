@@ -33,10 +33,10 @@ const LeftSide = () => {
     };
 
     return (
-        <div className="text-white flex flex-col justify-between w-2/5 sticky top-0 h-fit">
+        <div className="text-white flex flex-col justify-between w-[35%] sticky top-0 h-fit">
             {/* Name and Intro */}
             <div>
-                <p className="text-5xl font-bold">Jordan McGhee</p>
+                <p className="text-4xl font-bold">Jordan McGhee</p>
 
                 {/* Animated Title */}
                 <div className="relative h-10 overflow-hidden my-3">
@@ -54,10 +54,10 @@ const LeftSide = () => {
                     </AnimatePresence>
                 </div>
 
-                <p className="text-lg text-offWhite w-3/4">
+                <p className="text-lg text-offWhite">
                     Web developer with experience developing MERN, PERN, and Django applications.
                     Formerly a digital designer with 7+ years of experience working in the Adobe Suite.
-                    Looking forward to connecting!
+                    <br/>I look forward to connecting!
                 </p>
 
                 <nav>
