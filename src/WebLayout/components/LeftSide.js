@@ -10,7 +10,8 @@ import whiteLinkedin from "../../icons/whiteLinkedin.png";
 
 // PDF import
 // import resume from "../../JordanMcGhee_Resume_2024.pdf";
-import resume from "../../Jordan_McGhee-Full_Stack_Software_Engineer-Mar2025.pdf";
+// import resume from "../../Jordan_McGhee-Full_Stack_Software_Engineer-Mar2025.pdf";
+import resume from "../../JordanMcGhee_UXUI&FrontendDeveloperResume_June2025.pdf";
 
 const titles = ["Full Stack Software Developer", "Frontend Developer", "UX/UI Designer"];
 
@@ -56,7 +57,7 @@ const LeftSide = () => {
 
                 <p className="text-lg text-offWhite">
                     Web developer with experience developing MERN, PERN, and Django applications.
-                    Formerly a digital designer with 7+ years of experience working in the Adobe Suite.
+                    Formerly a creative services manager with 7+ years of experience working in the Adobe Suite.
                     <br/>I look forward to connecting!
                 </p>
 
