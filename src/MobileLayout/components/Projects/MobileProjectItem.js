@@ -7,9 +7,14 @@ const MobileProjectItem = props => {
     return (
         <li className="text-offWhite text-sm mt-6 mb-10">
 
-            <img src={props.image} alt= {`${props.name} thumbnail`} className="aspect-video h-28 mb-5" />
+            <img src={props.image} alt={`${props.name} thumbnail`} className="aspect-video h-28 mb-5" />
 
-            <p className="text-white text-base mb-2 font-semibold hover:text-accent">{props.name}</p>
+
+            <div className="flex items-center gap-x-2 mb-2">
+                <p className="text-white text-base font-semibold hover:text-accent">{props.name}</p>
+
+                <p className="italic text-accent">{props.inDevelopment && "Currently in Development"}</p>
+            </div>
 
             {/* link div */}
             <div className="flex items-center w-3/4 mb-2">

@@ -22,15 +22,20 @@ const ProjectItem = props => {
 
                 {/* name and github link */}
                 <div className="mb-2 w-3/4">
-                    <a
-                        className="text-white font-medium text-lg mr-8 hover:text-accent"
-                        href={props.link || props.youtube || props.github}
-                        target="_blank"
-                        rel="noreferrer"
-                        title={props.name}
-                    >
-                        {props.name}
-                    </a>
+
+                    <div className="flex items-center gap-x-2">
+                        <a
+                            className="text-white font-medium text-lg hover:text-accent"
+                            href={props.link || props.youtube || props.github}
+                            target="_blank"
+                            rel="noreferrer"
+                            title={props.name}
+                        >
+                            {props.name}
+                        </a>
+
+                        <p className="italic text-accent">{props.inDevelopment && "Currently in Development"}</p>
+                    </div>
 
                     <div className="flex items-center mt-2">
 

@@ -9,6 +9,7 @@ const ProjectList = props => {
             id = { project.name }
             index = { props.projects.indexOf(project) }
             name = { project.name }
+            inDevelopment = { project.inDevelopment }
             about = { project.about }
             stack = { project.stack }
             link = { project.link ? project.link : null }

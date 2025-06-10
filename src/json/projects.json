@@ -2,7 +2,7 @@
     {
         "name": "SwoleMates v2",
         "inDevelopment": true,
-        "about": "A much-needed revamping of a my first project — a Facebook-inspired fitness social media platform for weightlifters that enables users to keep up with their fitness progress, create posts and workouts, and interact with their friends’ content.",
+        "about": "A much-needed revamping of my first project — a Facebook-inspired fitness social media platform for weightlifters that enables users to keep up with their fitness progress, create posts and workouts, and interact with their friends’ content.",
         "stack": [
             "React with Typescript",
             "Vite",
@@ -36,7 +36,7 @@
         "image": "/thumbnails/leaguetrendz.png"
     },
     {
-        "name": "Drink 4 The Kids",
+        "name": "Drink 4 The Kids 2024",
         "about": "A mobile-first web app and POS system built for the 5th annual D4K charity party. We raised over $27,000 supporting The Nicholas House and True Change charities in Atlanta. With 200+ unique users, 500+ orders placed, and 600+ drinks made, we continue improving the system each year to enhance the event’s success.",
         "stack": [
             "React",

@@ -57,7 +57,7 @@ const LeftSide = () => {
 
                 <p className="text-lg text-offWhite">
                     Web developer with experience developing MERN, PERN, and Django applications.
-                    Formerly a creative services manager with 7+ years of experience working in the Adobe Suite.
+                    Formerly a Creative Services Manager with 7+ years of experience working in the Adobe Suite.
                     <br/>I look forward to connecting!
                 </p>
 
