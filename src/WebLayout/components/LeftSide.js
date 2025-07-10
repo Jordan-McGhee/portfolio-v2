@@ -13,7 +13,7 @@ import whiteLinkedin from "../../icons/whiteLinkedin.png";
 // import resume from "../../Jordan_McGhee-Full_Stack_Software_Engineer-Mar2025.pdf";
 import resume from "../../JordanMcGhee_UXUI&FrontendDeveloperResume_June2025.pdf";
 
-const titles = ["Full Stack Software Developer", "Frontend Developer", "UX/UI Designer"];
+const titles = ["Full Stack Software Developer", "Frontend Developer", "UX/UI Designer", "Digital Experience Designer", "Creative Services Manager"];
 
 const LeftSide = () => {
     const [currentTitleIndex, setCurrentTitleIndex] = useState(0);
