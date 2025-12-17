@@ -1,25 +1,40 @@
 [
     {
-        "name": "SwoleMates v2",
-        "inDevelopment": true,
-        "about": "A much-needed revamping of my first project — a Facebook-inspired fitness social media platform for weightlifters that enables users to keep up with their fitness progress, create posts and workouts, and interact with their friends’ content.",
+        "name": "Boogie's Mini Markets",
+        "about": "A conversion-focused website and brand system designed and built for my AI-integrated mini market business in Atlanta. Developed with a mobile-first, component-based approach, this project includes animated promotional components, lead capture flows, and UX decisions informed by real operational needs, bridging digital design with a physical product experience.",
         "stack": [
-            "React with Typescript",
+            "React",
+            "TypeScript",
+            "Tailwind CSS",
+            "Firebase",
             "Vite",
+            "EmailJS",
+            "CI/CD",
+            "SEO Optimization"
+        ],
+        "link": "https://boogies-atl.com",
+        "github": "https://github.com/Jordan-McGhee/boogies",
+        "image": "/thumbnails/boogies.png"
+    },
+    {
+        "name": "Drink 4 The Kids 2025",
+        "about": "A mobile-first web app and POS system built for the 5th annual D4K charity party. We raised over $33,000 supporting The Nicholas House and True Change charities in Atlanta. With 200+ unique users, 500+ orders placed, and 700+ drinks made, we continue improving the system each year to enhance the event’s success.",
+        "stack": [
+            "React",
             "Express",
             "Node",
-            "Tailwind CSS",
-            "shadcn",
             "PostgreSQL",
+            "Tailwind CSS",
             "Firebase",
             "Supabase"
         ],
-        "github": "https://github.com/Jordan-McGhee/swolemates_v2",
-        "image": "/thumbnails/swolemates.png"
+        "link": "https://drink4thekids.com/",
+        "github": "https://github.com/Jordan-McGhee/d4k-2023",
+        "image": "/thumbnails/d4k_2025.png"
     },
     {
         "name": "LeagueTrendz",
-        "about": "An NBA application providing users with a comprehensive platform to explore stats, team performances, and follow their favorite players and teams with data from the 2023-24 season and past seasons in the NBA.",
+        "about": "An NBA application providing users with a comprehensive platform to explore stats, team performances, and follow their favorite players and teams with accurate data up to the 2023-24 season.",
         "stack": [
             "React",
             "Typescript",
@@ -36,20 +51,22 @@
         "image": "/thumbnails/leaguetrendz.png"
     },
     {
-        "name": "Drink 4 The Kids 2024",
-        "about": "A mobile-first web app and POS system built for the 5th annual D4K charity party. We raised over $27,000 supporting The Nicholas House and True Change charities in Atlanta. With 200+ unique users, 500+ orders placed, and 600+ drinks made, we continue improving the system each year to enhance the event’s success.",
+        "name": "SwoleMates v2",
+        "inDevelopment": true,
+        "about": "A much-needed revamping of my first project — a Facebook-inspired fitness social media platform for weightlifters that enables users to keep up with their fitness progress, create posts and workouts, and interact with their friends’ content.",
         "stack": [
-            "React",
+            "React with Typescript",
+            "Vite",
             "Express",
             "Node",
-            "PostgreSQL",
             "Tailwind CSS",
+            "shadcn",
+            "PostgreSQL",
             "Firebase",
             "Supabase"
         ],
-        "link": "https://drink4thekids.com/",
-        "github": "https://github.com/Jordan-McGhee/d4k-2023",
-        "image": "/thumbnails/d4k.png"
+        "github": "https://github.com/Jordan-McGhee/swolemates_v2",
+        "image": "/thumbnails/swolemates.png"
     },
     {
         "name": "SwoleMates",

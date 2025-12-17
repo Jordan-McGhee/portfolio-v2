@@ -9,7 +9,7 @@ import whiteGithub from "../../icons/whiteGithub.png";
 import whiteLinkedin from "../../icons/whiteLinkedin.png";
 
 // PDF import
-import resume from "../../JordanMcGhee_UXUI&FrontendDeveloperResume_June2025.pdf";
+import resume from "../../Jordan-McGhee_Software-Developer_Resume.pdf";
 
 const titles = ["Full Stack Software Developer", "Frontend Developer", "UX/UI Designer", "Digital Experience Designer", "Creative Services Manager"]
 
